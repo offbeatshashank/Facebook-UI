@@ -1,0 +1,257 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spectrum - profile page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1296ef278b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <nav>
+        <div class="nav-left">
+            <a href="index.html">
+            <img src="logo-white-removebg-preview.png" class="logo" >
+            </a>
+            <ul>
+                <li><img src="img/notification.png"></li>
+                <li><img src="img/inbox.png"></li>
+                <li><img src="img/video.png"></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="img/search.png" >
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsmenutoggle()">
+            <img src="img/pp.png">
+            </div>
+        </div>
+
+         <!-- settingsmenu------------------------------>
+
+        <div class="settingsmenu">
+ 
+            <div id="darkbtn" >
+                <span>
+                    
+                </span>
+            </div>
+
+            <div class="settingsmenuinner">
+                <div class="userprofile">
+                    <img src="img/pp.png">
+                    <div>
+                        <p>Shashank vishwakarma</p>
+                       <a href="profile.html">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="userprofile">
+                    <img src="img/feedback.png">
+                    <div>
+                        <p>Give feedback</p>
+                       <a href="#">Help to improve</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="settinglinks">
+                <img src="img/setting.png">
+                <a href="#" class="arrowpng" >Settings and privacy <img src="img/arrow.png" ></a>
+                </div>
+                <div class="settinglinks">
+                <img src="img/help.png">
+                <a href="#" class="arrowpng">Help and Support<img src="img/arrow.png" ></a>
+                </div>
+                <div class="settinglinks">
+                <img src="img/display.png">
+                <a href="#" class="arrowpng">Display and acessability<img src="img/arrow.png" ></a>
+                </div>
+                <div class="settinglinks">
+                <img src="img/logout.png">
+                <a href="#" class="arrowpng">Logout<img src="img/arrow.png" ></a>
+                </div>
+             </div>
+           
+        </div>
+
+    </nav> 
+
+    <!--------------profile page--------------->
+    <div class="profilecontainer">
+
+     <img src="assets/satii.jpg" class="coverimg">
+     <div class="profiledetails">
+        <div class="pdleft">
+            <div class="pdrow">
+                <img src="img/pp.png" class="pdimg">
+                <div>
+                    <h3>Shashank vishwakarma</h3>
+                  <p>17 friends 4 mutual</p>
+                  <img src="JOSHISIR.jpg" >
+                  <img src="shubhank.jpg">
+                  <img src="SAURABHSIR.JPG">
+                  <img src="deepak.jpg">
+                </div>
+            </div>
+        </div>
+        <div class="pdright">
+            <button type="button"><img src="img/add-friends.png"> Friends</button>
+            <button type="button"><img src="img/message.png" alt=""> Message</button>
+            <br>
+            <a href="#"><img src="img/more.png"></a>
+        </div>
+     </div>
+     <div class="profileinfo">
+        <div class="infocol">
+            <div class="profileintro">
+                <h3>Intro</h3>
+                <p class="introtext">
+                    Learn anything from anyone from anywhere.
+                    <img src="img/feeling.png">
+                </p>
+                <hr>
+                <ul>
+                    <li><img src="img/profile-study.png" alt=""> Student at SATI</li>
+                    <li><img src="img/profile-home.png" alt=""> Lives in Satna</li>
+                    <li><img src="img/profile-location.png" alt=""> Persuing MCA from Sati Vidisha</li>
+                </ul>
+            </div>
+            <div class="profileintro">
+                <div class="titlebox">
+                    <h3>Photo</h3>
+                    <a href="">All photos</a>
+                </div>
+
+                <div class="photobox">
+                    <img src="assets/nehru.jpg" alt="">
+                    <img src="assets/IMG_20221108_163551.jpg" alt="">
+                    <img src="assets/feed3.jpg" alt="">
+                    <img src="assets/feed5.jpg" alt="">
+                   
+                </div>
+            </div>
+        </div>
+        <div class="postcol">
+            <div class="writeposts">
+                <div class="userprofile">
+                    <img src="img/pp.png">
+                    <div>
+                        <p>Shashank vishwakarma</p>
+                        <small>public <i class="fa-solid fa-caret-down"></i></small>
+                    </div>
+                </div>
+
+                <div class="postinput">
+                    <textarea rows="3" placeholder=" Whats on your mind , shashank ? "></textarea>
+                    <div class="addpostlink">
+                        <a href="#"><img src="img/live-video.png" >Live Video</a>
+                        <a href="#"><img src="img/photo.png" >Photo/Video</a> 
+                        <a href="#"><img src="img//feeling.png" >Feeling/Activity</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="posts">
+                <div class="post-row">
+                    <div class="userprofile">
+                        <img src="img/pp.png">
+                        <div>
+                            <p>Shashank vishwakarma</p>
+                            <span>november 16 2022, 18:31</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i></small></a>
+
+                </div>
+              
+                <p class="posttext"> Visiting  <span> SATI </span> for pictures . <a href="#">  #sati</a> <a href="#">  #project</a> </p>
+                 
+                <img src="assets/feed1.jpg" id="post-img">   
+
+                <div class="post-row">
+                    <div class="activityicons">
+                        <div><img src="img/like-blue.png">143</div>
+                        <div><img src="img/comments.png">46</div>
+                        <div><img src="img/share.png">21</div>
+                    </div>
+                    <div class="postptofileicon">
+                    <img src="img/pp.png"> 
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="posts">
+                <div class="post-row">
+                    <div class="userprofile">
+                        <img src="img/pp.png">
+                        <div>
+                            <p>Shashank vishwakarma</p>
+                            <span>november 16 2022, 18:31</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i></small></a>
+
+                </div>
+              
+                <p class="posttext"><span> Construction </span> is Going on .</p>
+                 
+                <img src="assets/feed2.jpg" id="post-img">   
+
+                <div class="post-row">
+                    <div class="activityicons">
+                        <div><img src="img/like-blue.png">14</div>
+                        <div><img src="img/comments.png">6</div>
+                        <div><img src="img/share.png">21</div>
+                    </div>
+                    <div class="postptofileicon">
+                    <img src="img/pp.png"> 
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="posts">
+                <div class="post-row">
+                    <div class="userprofile">
+                        <img src="img/pp.png">
+                        <div>
+                            <p>Shashank vishwakarma</p>
+                            <span>november 16 2022, 18:31</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i></small></a>
+
+                </div>
+              
+                <p class="posttext">A tribute to <span> Kailash satyarthi </span> <a href="#">  #nobol </a> <a href="#">#Sati</a></p>
+                 
+                <img src="assets/feed3.jpg" id="post-img">   
+
+                <div class="post-row">
+                    <div class="activityicons">
+                        <div><img src="img/like-blue.png">145</div>
+                        <div><img src="img/comments.png">465</div>
+                        <div><img src="img/share.png">214</div>
+                    </div>
+                    <div class="postptofileicon">
+                    <img src="img/pp.png"> 
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+     </div>
+    </div>
+   
+<div class="footer"><P>Copyright 2021 - Shashank vishwakarma</P></div>
+<script src="script.js"></script>
+</body>
+</html>
